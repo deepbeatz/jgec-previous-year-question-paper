@@ -166,7 +166,7 @@ header ul li a:hover{
 }
 
 .common{
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .common:hover {
@@ -178,19 +178,22 @@ header ul li a:hover{
 .btn{ 
   padding-left: 15px;
   padding-right: 15px;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: rgb(255,102,0);
   transform: scale(1.03);
-  cursor: pointer;
+}
+
+.yrpage{
+  transition: all 0.2s ease-in-out;
 }
 
 .yrpage:hover {
   font-weight: 600;
   color: black;
-  transition: all 0.2s ease;
 }
 
 .blink {
